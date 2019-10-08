@@ -2,7 +2,7 @@ package automatolista;
 
 /**
  *
- * @author marce
+ * @author marcella
  */
 public class Transicao {
     private String estadoOrigem, estadoDestino;
@@ -30,8 +30,6 @@ public class Transicao {
         this.estadoDestino = estadoDestino;
     }
     
-    
-    
     public char getLetraSetenca() {
         return letraSetenca;
     }
@@ -43,8 +41,5 @@ public class Transicao {
     public void imprimeTransicao(){ //toString
         System.out.println("σ("+estadoOrigem+", "+letraSetenca+") = "+estadoDestino);
     }
-    
-    
-    
     
 }

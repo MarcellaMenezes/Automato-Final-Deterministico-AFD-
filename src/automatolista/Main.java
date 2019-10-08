@@ -2,7 +2,7 @@ package automatolista;
 
 /**
  *
- * @author marce
+ * @author marcella
  */
 public class Main {
 
