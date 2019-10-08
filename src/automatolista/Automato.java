@@ -84,6 +84,7 @@ public class Automato {
         for(int i=0; i<setenca.length();i++){ //for que percorre o tamanho da sentença
             char letra =setenca.charAt(i); //pega letra por letra da sentença de entrada
             proximoEstado = retornaEstadoDestino(estadoAtual, letra);
+            if(proximoEstado==null) return false; //se nao existe saida daquele estado, consumindo aquela letra
             estadoAtual=proximoEstado; //o estado atual recebe o proximo estado
         }
         return isFinal(estadoAtual); //chama o metodo pra conferir se o estado que parou pertence a lista de estados finais
