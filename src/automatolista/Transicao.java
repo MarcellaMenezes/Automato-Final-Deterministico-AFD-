@@ -2,7 +2,7 @@ package automatolista;
 
 /**
  *
- * @author marcella
+ * @author marcella menezes
  */
 public class Transicao {
     private String estadoOrigem, estadoDestino;

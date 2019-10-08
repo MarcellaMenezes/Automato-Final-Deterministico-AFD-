@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author marcella
+ * @author marcella menezes
  */
 public class Automato {
     private String setenca, estadoInicial;
