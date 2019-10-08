@@ -12,7 +12,7 @@ public class Main {
         automato.imprimeEstadoInicial();
         automato.imprimeEstadosFinais();
         automato.imprimeListaTransicao();
-        automato.pedeSetenca();
+        automato.pedeSentenca();
         System.out.println(automato.verificaSetenca());
     }
     

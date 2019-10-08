@@ -57,7 +57,7 @@ public class Automato {
         }
     }
     
-    public void pedeSetenca(){
+    public void pedeSentenca(){
         Scanner inputPalavra = new Scanner(System.in);
         System.out.println("\nInforme uma palavra:");
         setSetenca(inputPalavra.next());
