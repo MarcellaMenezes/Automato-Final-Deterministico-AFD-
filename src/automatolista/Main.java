@@ -6,7 +6,6 @@ package automatolista;
  */
 public class Main {
 
-
     public static void main(String[] args) {
         Automato automato = Arquivo.lerEGravarAutomato();
         automato.imprimeEstadoInicial();
@@ -15,5 +14,5 @@ public class Main {
         automato.pedeSentenca();
         System.out.println(automato.verificaSetenca());
     }
-    
+
 }
